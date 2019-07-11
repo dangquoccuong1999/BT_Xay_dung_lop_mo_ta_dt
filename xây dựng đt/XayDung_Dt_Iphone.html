@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    <script src="xay_dung_dt.js"></script>-->
+    <script src="dttesst.js"></script>
+</head>
+<body>
+<h3>Điện thoại IphoneXsMax</h3>
+<button id="pinIphone" onclick="iphoneXs.status()">Pin</button>
+<button id="smsIphone" onclick="iphoneXs.status()">Soạn tin nhắn</button>
+<button id="smsLoadingIphone">Tin nhắn đang soạn thảo</button>
+<button id="smsDenIphone" onclick="nokia.status()">Tin nhắn đến</button>
+<button id="smsDaGuiIphone" onclick="iphoneXs.status()">Tin nhắn đã gửi</button>
+<button id="onOffIphone" onclick="iphoneXs.batTat(this.id)">Turn On</button>
+<button id="sacPinIphone" onclick="sacPin2(iphoneXs)">Sạc điện thoại</button>
+<button id="rutSac" onclick="rutSac()">Rút sạc</button>
+<hr style="margin-top: 380px">
+<h3>Điện thoại Nokia</h3>
+<button id="pinNokia" onclick="nokia.pinMobie()">Pin</button>
+<button id="smsNokia" onclick="nokia.sms()">Soạn tin nhắn</button>
+<button id="smsLoadingNokia" onclick="nokia.smsDaGui()">Tin nhắn đang soạn thảo</button>
+<button id="smsDenNokia" onclick="iphoneXs.smsDenMobie()">Tin nhắn đến</button>
+<button id="smsDaGuiNokia" onclick="nokia.smsDaGui()">Tin nhắn đã gửi</button>
+<button id="onOffNokia" onclick="iphoneXs.batTat(this.id)">Turn On</button>
+<button id="sacPinNokia" onclick="sacPin2(nokia)">Sạc điện thoại</button>
+// Rút dây sạc chưa làm đủ hết chức năng
+</body>
+</html>
